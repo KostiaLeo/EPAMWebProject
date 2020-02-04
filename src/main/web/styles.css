@@ -1,0 +1,275 @@
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-weight: 400;
+	color: #2d3842;
+	font-family: 'Gudea', sans-serif;
+	width: 100%;
+}
+
+.register{
+	background-color: #2d3842;
+}
+
+.manager-page{
+	font-family: 'Gudea', sans-serif;
+	font-weight: 700;
+	background-color: #2d3842;
+	font-size: 1.1em;
+}
+
+.reg-form{
+	background-color: #fff;
+	padding: 4em 3em 2em 3em;
+	box-shadow: 0 10px 10px 0 #1d252b;
+}
+
+.headings{
+	margin:1.5em 0 1em 0.3em;
+}
+
+.headings h4{
+	margin-top: 0.2em;
+}
+
+h1{
+	font-family: 'Gudea', sans-serif;
+	padding: 0.15em;
+}
+
+
+a{
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+}
+
+img{
+	margin-right: 1em;
+	height: 2.5em;
+	width: 2.5em;
+}
+
+.header{
+	background-color: #2d3842;
+	height: 10vh;
+	width: 100%;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+.all-orders{
+	overflow-y: scroll;
+	margin-left: 1em;
+	margin-top: 0.5em;
+	width: 100%;
+	height: 90vh;
+}
+
+.one-order{
+	background-color:#F5F5F5;
+	padding: 1em;
+	margin-top: 0.5em;
+
+}
+
+
+.form{
+	margin-top: 0.5em;
+	margin-right: 2em;
+}
+
+.action-text{
+	font-size: 2.5em;
+	color: #2d3842;
+	font-family: 'Gudea', sans-serif;
+}
+
+.btn{
+	border-radius: 25px;
+	border-width: 0.1em;
+	border-color: #37871f;
+	color: #37871f;
+	padding: 0.5 1em 0.5 1em;
+	background-color: #fff;
+	font-size: 1.4em;
+	border-style: solid;
+}
+
+.btn-white{
+	border-radius: 25px;
+	border-width: 0.1em;
+	background-color: #2d3842;
+	color: #fff;
+	margin-top: 2em;
+	margin-left: 90%;
+	padding: 0.5 1em 0.5 1em;
+	font-size: 1.4em;
+	border-style: solid;
+}
+
+.btn-reg{
+	border-radius: 25px;
+	border-width: 0.09em;
+	color: #37871f;
+	border-color: #37871f;
+	padding: 0.5 1em 0.5 1em;
+	background-color: #fff;
+	font-size: 1.4em;
+	margin-top: 2em;
+	border-style: solid;
+}
+
+.confirmation-form{
+	position: absolute;
+	font-size: 1.3em;
+	background-color: #2d3842;
+	color: #F5F5F5;
+	height: 70vh;
+	width: 50%;
+	padding-left: 7em;
+	padding-top: 5em;
+	margin: 4em 0 0 0em;
+}
+
+.radiobuttons{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0.1em;
+}
+
+.polya{
+	background-color: #2d3842;
+}
+
+.form-group{
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.2em;
+}
+
+.form-group label{
+	margin-top: 1.5em;
+}
+
+.list-group{
+	padding-top: 20vh;
+	background-color: #2d3842;
+}
+
+
+.list{
+	margin-top: -2em;
+	font-family: 'Gudea', sans-serif;
+	padding: 0px;
+	border-radius: 0px;
+}
+
+.list-group-item {
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.4em;
+	border: none;
+	background-color: #F5F5F5;
+}
+
+.list-group-item:hover{
+	background-color: #F5F5F5;
+}
+
+.list-group-item.active:hover{
+	background-color: #fff;
+}
+
+
+.list-group-item.active {
+	background-color: #fff;
+	border: none;
+	color: #2d3842;
+
+}
+
+.user-img{
+	width: 5em;
+	height: 5em;
+}
+
+.order-card{
+	width: 50%;
+	padding:4em 4em 3em 4em;
+	background-color: #fff;
+	box-shadow: 0 10px 10px 0 #1d252b;
+	margin-left: 25%;
+	margin-top: 4%;
+}
+
+.heading-order{
+	width: 4em;
+	height: 4em;
+	margin-left: 1em;
+}
+
+.info-about-order{
+	margin-bottom: 1em;
+}
+
+.price{
+	margin-left: 2.1em;
+	border-style: solid;
+	border-color: #cfd1d1;
+	border-width: 0.06em;
+	width: 40%;
+}
+
+.radio-btns{
+	margin: 0.2em 0 1em -0.7em;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+}
+
+.green{
+	color: #37871f;
+}
+
+.red{
+	color: #ba3614 ;
+}
+
+.comment{
+	border-style: solid;
+	border-color: #cfd1d1;
+	border-width: 0.06em;
+	width: 40%;
+}
+
+.col{
+	margin-top: 40%;
+}
+
+.languages{
+	background-color: transparent;
+	font-size: 1.5em;
+	color: #7995ad;
+	border-color: #7995ad;
+	font-family: 'Gudea', sans-serif;
+	font-weight: 400;
+	margin-top: 1.5em;
+	border-width: 0.08em;
+	border-radius: 0.4em;
+	border-style: solid;
+	padding: 0 1.5em 0 1.5em;
+}
+
+.languages:hover{
+	background-color: #212930;
+	font-size: 1.5em;
+	color: #7995ad;
+	border-color: #7995ad;
+	font-family: 'Gudea', sans-serif;
+	font-weight: 400;
+	margin-top: 1.5em;
+	border-width: 0.08em;
+	border-radius: 0.4em;
+	border-style: solid;
+	padding: 0 1.5em 0 1.5em;
+}
